@@ -95,7 +95,7 @@ sendSafe/
 
 ---
 
-![App Screenshot](./assets/screenshot.png)
+![App Screenshot](safeSend/src/assets/screenshot.png)
 
 
 ## 🙌 Acknowledgements
