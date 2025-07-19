@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #1f1f1f;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.app {
+  background: #2a2a2a;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid #3a3a3a;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+p {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #bcbcbc;
+}
+
+.wallet-connector button,
+.eth-send button {
+  background: #444;
+  color: #fff;
+  border: 1px solid #5a5a5a;
+  border-radius: 10px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.wallet-connector button:hover,
+.eth-send button:hover {
+  background: #555;
+  transform: scale(1.03);
+}
+
+.wallet-connector {
+  margin-bottom: 20px;
+}
+
+.my-address {
+  background: #333;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+  border: 1px solid #444;
+}
+
+.my-address div {
+  margin-top: 5px;
+  color: #d0d0d0;
+  word-break: break-word;
+}
+
+.eth-send {
+  margin-top: 20px;
+}
+
+.eth-send input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #555;
+  background: #292929;
+  color: white;
+  font-size: 14px;
+}
+
+.eth-send input::placeholder {
+  color: #888;
+}
+
+.eth-send div {
+  margin-top: 10px;
+  color: #a0ffa0;
+  font-size: 13px;
+  word-break: break-word;
+}
+
+.eth-send div.error {
+  color: #ff6b6b;
+}
+.eth-send div.success {
+  color: #6bff6b;
+}
