@@ -4,10 +4,10 @@ import { http, createConfig, WagmiProvider, useConnect, useAccount, useBalance, 
 import { sepolia } from 'wagmi/chains';
 import { injected } from 'wagmi/connectors';
 import "./App.css"
-import { sendTransaction } from 'viem/actions';
+
 
 const queryClient = new QueryClient()
-const projectId = '<WalletConnect projectId>';
+
 
 export const config = createConfig({
   chains: [sepolia],
